@@ -18,8 +18,6 @@ class SearchBar extends Component {
 
     //Call action creator. We are using this.props.fetchWeather beause of fetchWeather was passed in in mapDispatchToProps.
     this.props.fetchWeather(this.state.term);
-
-    //Set the input field in the view back a blank space after submitting.
     this.setState({ term: '' });
   }
 
@@ -29,20 +27,24 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onFormSubmit} className="input-group">
-        <input
-          placeholder="Enter a city for a 5-day forecast"
-          className="form-control"
-          value={this.state.term}
-          onChange={this.onInputChange} />
-        <span className="input-group-btn">
-          <button type="submit" className="btn btn-secondary">Search</button>
-        </span>
-      </form>
+      <div>
+        <h1>USA Weather</h1>
+        <form onSubmit={this.onFormSubmit} className="input-group">
+          <input
+            placeholder="Enter in a city to get a 5-day forecast"
+            className="form-control"
+            value={this.state.term}
+            onChange={this.onInputChange} />
+          <span className="input-group-btn">
+            <button type="submit" className="btn btn-secondary">Search</button>
+          </span>
+        </form>
+      </div>
     );
   }
 }
 
+//Links action with redux
 function mapDispatchToProps(dispatch) {
   //Makes sure the action flows through the middleware and into the reducers
   return bindActionCreators({ fetchWeather }, dispatch);

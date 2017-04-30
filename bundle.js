@@ -22334,6 +22334,11 @@
 	              'Search'
 	            )
 	          )
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'Here is your 5-day forecast starting today up to the next 4 days:'
 	        )
 	      );
 	    }

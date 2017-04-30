@@ -40,6 +40,7 @@ class SearchBar extends Component {
             <button type="submit" className="btn btn-secondary">Search</button>
           </span>
         </form>
+        <p>Here is your 5-day forecast starting today up to the next 4 days:</p>
       </div>
     );
   }

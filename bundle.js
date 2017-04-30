@@ -22315,7 +22315,7 @@
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'To receive a 5-day forecast of a USA city, enter the name of the city in the search box below:'
+	          'To receive a 5-day weather forecast of a USA city, enter the name of said USA city in the search box below:'
 	        ),
 	        _react2.default.createElement(
 	          'form',
@@ -22338,7 +22338,7 @@
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'Here is your 5-day forecast starting today up to the next 4 days:'
+	          'Here is your 5-day weather forecast starting today and the next 4 subsequent days:'
 	        )
 	      );
 	    }

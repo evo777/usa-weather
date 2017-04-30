@@ -29,7 +29,7 @@ class SearchBar extends Component {
     return (
       <div>
         <h1>5-Day USA City Weather Forecast</h1>
-        <p>To receive a 5-day forecast of a USA city, enter the name of the city in the search box below:</p>
+        <p>To receive a 5-day weather forecast of a USA city, enter the name of said USA city in the search box below:</p>
         <form onSubmit={this.onFormSubmit} className="input-group">
           <input
             placeholder="Enter the name of a USA city"
@@ -40,7 +40,7 @@ class SearchBar extends Component {
             <button type="submit" className="btn btn-secondary">Search</button>
           </span>
         </form>
-        <p>Here is your 5-day forecast starting today up to the next 4 days:</p>
+        <p>Here is your 5-day weather forecast starting today and the next 4 subsequent days:</p>
       </div>
     );
   }

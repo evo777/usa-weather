@@ -29,7 +29,7 @@ class Weather extends Component {
         <table className="table table-hover">
           <thead>
             <tr>
-              <th>City</th>
+              <th>City Map</th>
               <th>Temperature (C)</th>
               <th>Pressure (hPa)</th>
               <th>Humidity (%)</th>

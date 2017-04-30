@@ -28,10 +28,11 @@ class SearchBar extends Component {
   render() {
     return (
       <div>
-        <h1>USA Weather</h1>
+        <h1>5-Day USA City Weather Forecast</h1>
+        <p>To receive a 5-day forecast of a USA city, enter the name of the city in the search box below:</p>
         <form onSubmit={this.onFormSubmit} className="input-group">
           <input
-            placeholder="Enter in a city to get a 5-day forecast"
+            placeholder="Enter the name of a USA city"
             className="form-control"
             value={this.state.term}
             onChange={this.onInputChange} />

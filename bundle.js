@@ -22310,13 +22310,18 @@
 	        _react2.default.createElement(
 	          'h1',
 	          null,
-	          'USA Weather'
+	          '5-Day USA City Weather Forecast'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'To receive a 5-day forecast of a USA city, enter the name of the city in the search box below:'
 	        ),
 	        _react2.default.createElement(
 	          'form',
 	          { onSubmit: this.onFormSubmit, className: 'input-group' },
 	          _react2.default.createElement('input', {
-	            placeholder: 'Enter in a city to get a 5-day forecast',
+	            placeholder: 'Enter the name of a USA city',
 	            className: 'form-control',
 	            value: this.state.term,
 	            onChange: this.onInputChange }),
@@ -26018,7 +26023,7 @@
 	              _react2.default.createElement(
 	                'th',
 	                null,
-	                'City'
+	                'City Map'
 	              ),
 	              _react2.default.createElement(
 	                'th',

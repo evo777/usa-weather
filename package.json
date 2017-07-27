@@ -1,7 +1,7 @@
 {
   "name": "usa-weather",
   "version": "1.0.0",
-  "description": "An application that shows the weather in your city.",
+  "description": "An application that shows weather forecast in your city.",
   "engines": {
     "node": "6.11.1"
   },
